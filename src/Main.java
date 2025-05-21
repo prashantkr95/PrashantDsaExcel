@@ -1,6 +1,8 @@
 import generalcode.SumTwoNumbers;
 
 import static generalcode.BiarySearchMeadianOfTwoSorted.findMedian;
+import static generalcode.CountAppend.countAppend;
+import static generalcode.FirstNonRepeating.findFirstNonrepeating;
 import static generalcode.TrappingRainWater.waterTrapped;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -31,5 +33,12 @@ public class Main {
         System.out.println("It is find median of two sorted arrays is");
 
         System.out.println(findMedian(arr1, arr2));
+        String s2="aaabbbcccdddeeefghij";
+        System.out.println("It is find first non repeating character in string is");
+        System.out.println(findFirstNonrepeating(s2));
+        String str="aaabbbcccddddeeffff";
+        System.out.println("it is to find count and append string");
+        System.out.println(countAppend(str));
+
     }
 }
